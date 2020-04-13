@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="0.33"
+        tools:ignore="NestedWeights">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="2dp">
+
+            <ImageView
+                android:id="@+id/cardView1_imageview"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:src="@drawable/confirmed_cases" />
+
+            <TextView
+                android:id="@+id/cardView1_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardView1_imageview"
+                android:layout_centerHorizontal="true"
+                android:text="CONFIRMED" />
+
+            <TextView
+                android:id="@+id/cardView1_textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardView1_textview"
+                android:layout_centerHorizontal="true"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="0.33">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="2dp">
+
+            <ImageView
+                android:id="@+id/cardView2_imageview"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:src="@drawable/discharged_cases" />
+
+            <TextView
+                android:id="@+id/cardView2_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardView2_imageview"
+                android:layout_centerHorizontal="true"
+                android:text="RECOVERED" />
+
+            <TextView
+                android:id="@+id/cardView2_textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardView2_textview"
+                android:layout_centerHorizontal="true"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="0.33">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="2dp">
+
+            <ImageView
+                android:id="@+id/cardView3_imageview"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:src="@drawable/deceased_cases" />
+
+            <TextView
+                android:id="@+id/cardView3_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardView3_imageview"
+                android:layout_centerHorizontal="true"
+                android:text="DECEASED" />
+
+            <TextView
+                android:id="@+id/cardView3_textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardView3_textview"
+                android:layout_centerHorizontal="true"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

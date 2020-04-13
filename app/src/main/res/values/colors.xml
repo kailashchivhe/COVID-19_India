@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#424242</color>
+    <color name="colorPrimaryDark">#1b1b1b</color>
+    <color name="colorAccent">#424242</color>
+    <color name="tollfree_background_color">#8bc34a</color>
+    <color name="phone_number_background">#ffeb3b</color>
+    <color name="red">#ef9a9a</color>
+    <color name="purple">#b39ddb</color>
+    <color name="blue">#90caf9</color>
+    <color name="green">#a5d6a7</color>
+    <color name="yellow">#ffe082</color>
+    <color name="brown">#bcaaa4</color>
+</resources>

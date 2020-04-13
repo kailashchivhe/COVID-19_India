@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">COVID-19 INDIA</string>
+    <string name="state_wise_summary">STATE-WISE SUMMARY</string>
+    <string name="state_wise_helpline">STATE-WISE HELPLINE NUMBERS</string>
+    <string name="district_wise_summary">DISTRICT-WISE SUMMARY</string>
+    <string name="central_helpline_text">CALL +91–11–23978046</string>
+    <string name="toll_free_text">CALL TOLL-FREE</string>
+    <string name="toll_free_no">1075</string>
+</resources>
